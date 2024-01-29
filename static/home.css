@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:url('https://img.freepik.com/premium-vector/abstract-background-with-shapes_311284-58.jpg?size=626&ext=jpg&uid=R119208312&ga=GA1.1.1447790702.1704693485&semt=ais');
+    text-align: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+
+}
+.container {
+    margin-top: 20px; 
+    max-width: 550px;
+    padding: 30px;
+    margin-right: 60px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+h1 {
+    margin-bottom: 30px;
+}
+.btn {
+    
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+}
+.btn:hover {
+    background-color: #0056b3;
+}

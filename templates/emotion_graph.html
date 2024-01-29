@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotion Analysis</title>
+</head>
+<body>
+    <h1>Real-time Emotion Analysis</h1>
+    
+    <div>
+        <img id="video_feed" src="{{ url_for('video_feed') }}" alt="Video Feed">
+    </div>
+    
+    <div>
+        <img id="emotion_plot" alt="Emotion Plot">
+    </div>
+  
+    <!-- Add this section to display movie recommendations -->
+    <div>
+        <h2>Recommended Movies</h2>
+        <ul id="recommended_movies_list"></ul>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.1.3/socket.io.js"></script>
+    <script>
+        var socket = io.connect('http://' + document.domain + ':' + location.port);
+
+        socket.on('update_recommendations', function(data) {
+            updateRecommendations(data);
+        });
+
+        socket.on('update_graph', function(msg) {
+            document.getElementById('emotion_plot').src = msg.image;
+        });
+
+        function updateRecommendations(recommended_movies) {
+            var recommendationsList = document.getElementById('recommended_movies_list');
+            recommendationsList.innerHTML = '';
+
+            recommended_movies.forEach(function(movie) {
+                var listItem = document.createElement('li');
+                listItem.textContent = `${movie.MovieName} - ${movie.Genre} - ${movie.Director} - ${movie.movie_rating}`;
+                recommendationsList.appendChild(listItem);
+            });
+        }
+    </script>
+</body>
+</html>

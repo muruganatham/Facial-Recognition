@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Register</title>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+    <!-- Google Sign-In JavaScript SDK -->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-image: url('https://img.freepik.com/free-vector/gradient-abstract-geometric-background_23-2149120169.jpg?size=626&ext=jpg&uid=R119208312&ga=GA1.1.1728076511.1704623196&semt=ais'); /* Replace with your image path */
+            background-size: cover;
+        }
+
+        .container {
+            display: flex;
+            background-color: #c59ed9; 
+            background-size: cover;
+            width: 350px; /* Decreased width */
+            height: 550px; /* Increased height */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            border-radius: 15px; /* Added border-radius */
+            position: relative;
+            animation: fadeIn 0.30s step-end;
+            transition: width 0.30s, height 0.30s; /* Add transition for width and height */
+            background: linear-gradient(to bottom, #c59ed9 0%, #8b5fbf 50%, #583d72 100%); /* Gradient for the container */
+        }
+        
+        .container::before {
+            content: "";
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%); /* Gradient for the top */
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 50%; /* Adjust the height as needed */
+            z-index: -1;
+        }
+        
+        .container::after {
+            content: "";
+            background: linear-gradient(to top, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%); /* Gradient for the bottom */
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 50%; /* Adjust the height as needed */
+            z-index: -1;
+        }
+        
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .section {
+            flex: 1;
+            padding: 20px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #login-section {
+            background-color: #ffffff;
+            color: black;
+            transition: opacity 0.5s; /* Add transition for opacity */
+            opacity: 1;
+        }
+
+        #register-section {
+            background-color: #f5faff;
+            display: none;
+            color: black;
+            transition: opacity 0.55s; /* Add transition for opacity */
+            opacity: 0;
+        }
+
+        h1 {
+            text-align: top;
+            font-family: 'Times New Roman', Times, serif;
+            color: white;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            background-color: #3498db;
+            color: #ffffff;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .textbox {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .bottom {
+            color: #888888;
+        }
+
+        .bottom a {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .bottom a:hover {
+            color: #21618c;
+        }
+
+        .social-btn {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+
+        .google-btn {
+            background-color: #dd4b39;
+        }
+
+        .facebook-btn {
+            background-color: #3b5998;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="login-section" class="section">
+            <center><h2>Login</h2></center>
+            <br>
+            <br>
+            <form action="/login" method="post">
+                <input id="email" name="email" type="text" placeholder="Enter Your Email ID" class="textbox"/>
+                <input id="password" name="password" type="password" placeholder="Enter Your Password" class="textbox"/>
+                <input type="submit" class="btn" value="Login">
+            </form>
+            <p class="bottom">Don't have an account? <a href="javascript:void(0);" onclick="showRegister()">Sign Up </a></p>
+            <button class="social-btn google-btn" onclick="onSignIn()">Continue with Google</button>
+
+            <button class="social-btn facebook-btn" onclick="loginWithFacebook()">Continue with Facebook</button>
+            <center><a href="/" class="btn">Back to Home </a></center>
+        </div>
+        <div id="register-section" class="section">
+            <center><h2>Register</h2></center>
+            <form action="/register" method="post">
+                <input id="first_name" name="first_name" type="text" placeholder="First Name" class="textbox"/>
+                <input id="last_name" name="last_name" type="text" placeholder="Last Name" class="textbox"/>
+                <input id="email" name="email" type="text" placeholder="Enter Your Email ID" class="textbox"/>
+                <input id="password" name="password" type="password" placeholder="Enter Your Password" class="textbox"/>
+                <input id="confirm_password" name="confirm_password" type="password" placeholder="Confirm Password" class="textbox"/>
+                <input id="show_password" name="show_password" type="checkbox" onclick="togglePasswordVisibility('password'); togglePasswordVisibility('confirm_password');"/>
+                Show Password
+                <input id="phone" name="phone" type="text" placeholder="Enter Your Phone Number" class="textbox"/>
+                <input type="submit" class="btn" value="Sign Up">
+            </form>
+            <p class="bottom">Already have an account? <a href="javascript:void(0);" onclick="showLogin()">Login</a></p>
+        </div>
+    </div>
+
+    <script>
+        const loginSection = document.getElementById('login-section');
+        const registerSection = document.getElementById('register-section');
+
+        function showLogin() {
+            loginSection.style.color = 'black';
+            loginSection.style.display = 'block';
+            registerSection.style.display = 'none';
+            setTimeout(() => {
+                loginSection.style.opacity = '1';
+                registerSection.style.opacity = '0';
+            }, 10);
+        }
+
+        function showRegister() {
+            registerSection.style.color = 'black';
+            loginSection.style.display = 'none';
+            registerSection.style.display = 'block';
+            setTimeout(() => {
+                loginSection.style.opacity = '0';
+                registerSection.style.opacity = '1';
+            }, 10);
+        }
+
+        function togglePasswordVisibility(passwordId) {
+            const passwordInput = document.getElementById(passwordId);
+            passwordInput.type = passwordInput.type === 'password' ? 'text' : 'password';
+        }
+
+        function loginWithGoogle() {
+            alert('Logging in with Google!');
+            // Add your Google login logic here
+        }
+
+        function loginWithFacebook() {
+            alert('Logging in with Facebook!');
+            // Add your Facebook login logic here
+        }
+    </script>
+</body>
+</html>

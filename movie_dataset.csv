@@ -1,0 +1,330 @@
+MovieName,Genre,Rating,Director,Actor,PeopleVote,Year,Hero_Rating,movie_rating,content_rating
+Mouna Guru,Action,7.7,Santha Kumar,Arulnithi,746,2011,8,8,7.9
+7 Aum Arivu,Action,6.2,A.R. Murugadoss,Suriya,9479,2011,9,9,8.066666667
+Vaagai Sooda Vaa,Comedy,8,A. Sarkunam,Vimal,14522,2011,8,7,7.666666667
+Mankatha,Action,7.6,Venkat Prabhu,Ajith Kumar,12276,2011,6,8,7.2
+Kanchana: Muni 2,Comedy,6.5,Lawrence Raghavendra,Lawrence Raghavendra,1044,2011,8,9,7.833333333
+Deiva Thirumagal,Drama,8.1,A.L. Vijay,Vikram,44517,2011,9,9,8.7
+Vaanam,Action,7.2,Radha Krishna Jagarlamudi,T.R. Silambarasan,1307,2011,7,8,7.4
+Ko,Action,7.8,K.V. Anand,Jiiva,4759,2011,9,7,7.933333333
+Payanam,Action,7.3,Radha Mohan,Nagarjuna Akkineni,677,2011,6,8,7.1
+Yutham Sei,Crime,8,Myshkin,Cheran,1678,2011,4,9,7
+Aadukalam,Action,8.1,Vetrimaaran,Dhanush,4456,2011,8,9,8.366666667
+Naduvula Konjam Pakkatha Kaanom,Comedy,8.2,Balaji Tharaneetharan,Vijay Sethupathi,4530,2012,7,8,7.733333333
+Thuppakki,Action,7.9,A.R. Murugadoss,Joseph Vijay,22577,2012,9,9,8.633333333
+Pizza,Horror,8,Karthik Subbaraj,Vijay Sethupathi,6528,2012,2,8,6
+Naan,Crime,7.5,Jeeva Shankar,Vijay Antony,1365,2012,3,7,5.833333333
+The Fly,Action,7.7,S.S. Rajamouli,J.V.V. Sathyanarayana,20590,2012,5,7,6.566666667
+Kalakalappu,Comedy,6.9,Sundar C.,Vimal,1019,2012,7,8,7.3
+Vazhakku Enn 18/9,Crime,8.3,Balaji Sakthivel,Sri,1915,2012,5,9,7.433333333
+Kumki,Drama,7,Prabu Solomon,Vikram Prabhu,1231,2012,8,9,8
+Neethaane En Ponvasantham,Romance,6.5,Gautham Vasudev Menon,Jiiva,1500,2012,9,8,7.833333333
+Thalaimuraigal,Drama,7.6,Balu Mahendra,Karthick,40034,2013,8,7,7.533333333
+Biriyani,Action,5.7,Venkat Prabhu,Karthi,1272,2013,7,8,6.9
+Ivan Veramaathiri,Action,6,M. Saravanan,Vikram Prabhu,290,2013,4,9,6.333333333
+Kalyana Samayal Saadham,Comedy,7.1,R.S. Prasanna,Prasanna,117,2013,5,8,6.7
+Irandam Ulagam,Action,5.7,K. Selvaraghavan,Arya,1101,2013,8,8,7.233333333
+Pandiya Naadu,Action,7.2,Suseenthiran,Vishal,1168,2013,9,8,8.066666667
+Arrambam,Action,7,Vishnuvardhan,Ajith Kumar,8415,2013,6,9,7.333333333
+Onaayum Aattukkuttiyum,Action,8.2,Myshkin,Myshkin,2181,2013,8,8,8.066666667
+Raja Rani,Comedy,7.6,Atlee Kumar,Arya,4088,2013,9,9,8.533333333
+6 Candles,Thriller,7,V.Z. Dhorai,Sandra Amy,16247,2013,4,9,6.666666667
+Moodar Koodam,Comedy,7.7,Naveen,Naveen,1081,2013,5,8,6.9
+Varuthapadatha Valibar Sangam,Comedy,6.7,Ponram,Sivakarthikeyan,1352,2013,6,8,6.9
+Thanga Meengal,Drama,7.9,Ram,Ram,791,2013,4,9,6.966666667
+Aadhalal Kadhal Seiveer,Romance,7.2,Suseenthiran,Santhosh Ramesh,62323,2013,5,8,6.733333333
+Maryan,Adventure,7.1,Ganapathy Bharat,Dhanush,2761,2013,6,9,7.366666667
+Singam 2,Action,6.3,Hari,Suriya,5369,2013,8,9,7.766666667
+Theeya Velai Seiyyanum Kumaru,Comedy,6.1,Sundar C.,Siddharth,1320,2013,7,8,7.033333333
+Neram,Action,7.5,Alphonse Puthren,Nivin Pauly,4292,2013,5,8,6.833333333
+Soodhu Kavvum,Comedy,8.3,Nalan Kumarasamy,Vijay Sethupathi,8307,2013,6,9,7.766666667
+Ethir Neechal,Comedy,6.8,R.S. Durai Senthilkumar,Sivakarthikeyan,1747,2013,8,9,7.933333333
+Kedi Billa Killadi Ranga,Comedy,5.5,Pandiraj,Vimal,578,2013,7,7,6.5
+Paradesi,Drama,8,Bala,Atharvaa Murali,1644,2013,8,8,8
+Kaakkaa Muttai,Comedy,8.4,M. Manikandan,Ramesh,5011,2014,9,7,8.133333333
+Kayal,Romance,6.4,Prabu Solomon,Chandran,320,2014,8,8,7.466666667
+Pisasu,Horror,7.6,Myshkin,Naga,1658,2014,7,9,7.866666667
+Lingaa,Action,5.6,K.S. Ravikumar,Rajinikanth,4807,2014,4,8,5.866666667
+Kaaviya Thalaivan,Drama,7.6,Vasanthabalan,Siddharth,1133,2014,5,7,6.533333333
+Kaththi,Action,7.9,A.R. Murugadoss,Joseph Vijay,16760,2014,8,7,7.633333333
+Jeeva,Drama,7.5,Suseenthiran,Vishnu Vishal,944,2014,9,9,8.5
+Madras,Action,8,Pa. Ranjith,Karthi,3102,2014,8,8,8
+Kathai Thiraikathai Vasanam Iyakkam,Drama,6.8,Parthiban,Thambi Ramaiah,586,2014,7,7,6.933333333
+Jigarthanda,Action,8.3,Karthik Subbaraj,Siddharth,9578,2014,8,7,7.766666667
+Velaiilla Pattadhari,Action,7.8,Velraj,Dhanush,5039,2014,9,8,8.266666667
+Sathuranga Vettai,Crime,8.1,H. Vinoth,Nataraja Subramanian,2409,2014,8,9,8.366666667
+Saivam,Drama,6.8,A.L. Vijay,Nassar,59767,2014,7,9,7.6
+Mundaasupatti,Comedy,7.6,Ram Kumar,Vishnu Vishal,1118,2014,4,8,6.533333333
+Kochadaiiyaan,Animation,6.3,Soundarya R. Ashwin,Rajinikanth,4692,2014,5,8,6.433333333
+Vaayai Moodi Pesavum,Comedy,6.7,Balaji Mohan,Dulquer Salmaan,1448,2014,9,9,8.233333333
+Cuckoo,Drama,7.8,Raju Murugan,Dinesh,617,2014,8,7,7.6
+Thegidi,Crime,7.8,P. Ramesh,Ashok Selvan,27868,2014,7,8,7.6
+Pannaiyarum Padminiyum,Comedy,7.8,S.U. Arun Kumar,Vijay Sethupathi,1375,2014,5,9,7.266666667
+Goli Soda,Action,7.7,Vijay Milton,Kishore Kumar G.,905,2014,8,7,7.566666667
+Veeram,Action,6.5,Siva,Ajith Kumar,6655,2014,9,7,7.5
+Rajini Murugan,Action,5.7,Ponram,Sivakarthikeyan,1322,2015,6,8,6.566666667
+Visaaranai,Crime,8.5,Vetrimaaran,Dinesh,6219,2015,8,9,8.5
+Pasanga 2,Drama,7.5,Pandiraj,Suriya,1031,2015,7,7,7.166666667
+Thoongaavanam,Action,7,Rajesh M. Selva,Kamal Haasan,1819,2015,5,8,6.666666667
+Naanum Rowdy Thaan,Action,7.3,Vignesh Shivan,Vijay Sethupathi,3354,2015,8,9,8.1
+Kuttram Kadithal,Drama,8,Bramma G.,Master Ajay,665,2015,4,8,6.666666667
+Kirumi,Crime,7,Anu Charan,Anucharan,45686,2015,7,7,7
+Maya,Horror,7.6,Ashwin Saravanan,Nayanthara,1302,2015,9,8,8.2
+Thani Oruvan,Action,8.4,Mohan Raja,Jayam Ravi,15421,2015,6,8,7.466666667
+Papanasam,Drama,8.4,Jeethu Joseph,Kamal Haasan,5295,2015,8,7,7.8
+Indru Netru Naalai,Comedy,8,R. Ravikumar,Vishnu Vishal,3339,2015,5,9,7.333333333
+Demonte Colony,Horror,6.9,R. Ajay Gnanamuthu,Arulnithi,1725,2015,8,9,7.966666667
+36 Vayadhinile,Drama,7.1,Roshan Andrews,Jyotika,647,2015,5,8,6.7
+Uttama Villain,Comedy,7.2,Ramesh Aravind,Kamal Haasan,2561,2015,7,7,7.066666667
+Kanchana 2,Comedy,5.5,Lawrence Raghavendra,Lawrence Raghavendra,1261,2015,8,8,7.166666667
+OK Kanmani,Romance,7.4,Mani Ratnam,Dulquer Salmaan,4611,2015,6,9,7.466666667
+Rajathandhiram,Action,7.7,A.G. Amid,Veera Bahu,1154,2015,3,8,6.233333333
+Enakkul Oruvan,Thriller,7.7,Prasad Ramar,Siddharth,1456,2015,2,7,5.566666667
+Press 1 for Tamil,Comedy,7,Ramprakash Rayappa,Nakhul,850,2015,4,8,6.333333333
+Yennai Arindhaal,Action,7.3,Gautham Vasudev Menon,Ajith Kumar,7740,2015,7,9,7.766666667
+I,Action,7.3,S. Shankar,Vikram,18345,2015,8,9,8.1
+Dhuruvangal Pathinaaru,Action,8.4,Karthick Naren,Rahman,10895,2016,5,8,7.133333333
+Chennai 600028 Second Innings,Comedy,7,Venkat Prabhu,Jai,937,2016,1,7,5
+Achcham Yenbadhu Madamaiyada,Action,6.4,Gautham Vasudev Menon,T.R. Silambarasan,1896,2016,6,7,6.466666667
+Ammani,Drama,7.9,Lakshmi Ramakrishnan,Semmalar Annam,52730,2016,9,7,7.966666667
+Aandavan Kattalai,Drama,8.1,M. Manikandan,Vijay Sethupathi,2060,2016,8,8,8.033333333
+Kuttrame Thandanai,Crime,7.8,M. Manikandan,Vidharth,60939,2016,7,7,7.266666667
+Dharmadurai,Drama,7.5,Seenu Ramasamy,Vijay Sethupathi,1568,2016,8,9,8.166666667
+Joker,Comedy,8.4,Raju Murugan,Raju Saravanan,2830,2016,5,9,7.466666667
+Kabali,Action,6.2,Pa. Ranjith,Rajinikanth,11149,2016,8,8,7.4
+Metro,Action,7.3,Ananda Krishnan,Shirish,697,2016,5,9,7.1
+Iraivi,Crime,8,Karthik Subbaraj,S.J. Suryah,2736,2016,9,8,8.333333333
+Uriyadi,Action,8.1,Vijay Kumar,Vijay Kumar,1878,2016,8,7,7.7
+24,Action,7.8,Vikram K. Kumar,Suriya,15774,2016,7,8,7.6
+Theri,Action,7.1,Atlee Kumar,Joseph Vijay,12365,2016,8,9,8.033333333
+Oopiri,Comedy,8,Vamshi Paidipally,Nagarjuna Akkineni,3915,2016,9,9,8.666666667
+Kadhalum Kadanthu Pogum,Comedy,7.3,Nalan Kumarasamy,Vijay Sethupathi,2407,2016,8,8,7.766666667
+Pichaikkaran,Action,7.6,Sasi,Vijay Antony,1437,2016,7,9,7.866666667
+Saala Khadoos,Action,7.6,Sudha Kongara,Madhavan,10941,2016,8,8,7.866666667
+Crime 23,Action,7.4,Arivazhagan Venkatachalam,Arun Vijay,1915,2017,4,9,6.8
+Muthuramalingam,Action,1.6,Rajadurai,Priya Anand,14063,2017,5,9,5.2
+Dream Factory,Drama,6.7,Arun Chidambaram,Jiya Anil Manne,124,2017,6,8,6.9
+Yaman,Action,6.2,Jeeva Shankar,Vijay Antony,454,2017,9,8,7.733333333
+Ennodu Vilayadu,Thriller,5.6,Arun Krishnaswami,Bharath Srinivasan,77,2017,8,7,6.866666667
+Kadhal Kan Kattudhe,Drama,6.5,Shivaraj,Aneeruth,30623,2017,7,8,7.166666667
+Pagadi Aattam,Crime,5.8,Ram K. Chandran,Rahman,79,2017,4,9,6.266666667
+Rum,Horror,4.2,Sai Bharath,Arjun Chidambaram,118,2017,5,9,6.066666667
+Singam 3,Action,6.3,Hari,Suriya,5063,2017,8,8,7.433333333
+Bogan,Action,6.4,Lakshman,Jayam Ravi,1358,2017,9,8,7.8
+Enakku Vaaitha Adimaigal,Comedy,5.8,Mahendran Rajamani,Jai,399,2017,8,7,6.933333333
+Koditta Idangalai Nirappuga,Comedy,6.4,Parthiban,Shanthnu Bhagyaraj,65921,2017,7,8,7.133333333
+Adhe Kangal,Action,7.3,Rohin Venkatesan,R. Aravindraj,961,2017,4,9,6.766666667
+Bairavaa,Action,5.9,Bharathan,Joseph Vijay,7376,2017,5,9,6.633333333
+Lens,Drama,6.9,Jayaprakash Radhakrishnan,Anand Sami,942,2017,8,8,7.633333333
+Aruvi,Drama,8.6,Arun Prabhu Purushothaman,Aditi Balan,9890,2017,7,7,7.533333333
+Ulkuththu,Thriller,6.7,Caarthick Raju,Dr. Chef Damodaran,17655,2017,9,8,7.9
+Balloon,Horror,4.6,Sinish,Anjali,274,2017,5,9,6.2
+Kalavaadiya Pozhuthugal,Romance,6.1,Thangar Bachan,Bhoomika Chawla,48,2017,8,8,7.366666667
+Velaikkaran,Action,7.3,Mohan Raja,Sivakarthikeyan,2984,2017,6,7,6.766666667
+Sakka Podu Podu Raja,Action,4.2,G.L. Sethuraman,Aryan,357,2017,9,8,7.066666667
+Bhrama.com,Action,5.1,P.S. Vijayakumar,Bhagyaraj,64,2017,7,9,7.033333333
+Chennai 2 Singapore,Comedy,6.1,Abbas Akbaar,Abbas Akbar,137,2017,8,8,7.366666667
+12-12-1950,Comedy,5.4,Selvaah,Yogi Babu,69977,2017,8,7,6.8
+Kodiveeran,Action,4.8,M. Muthaiya,Gnanasambandam,117,2017,9,8,7.266666667
+Richie,Action,5.3,Gautham Ramachandran,Nivin Pauly,706,2017,9,9,7.766666667
+Annadurai,Action,5.3,G. Srinivasan,Vijay Antony,213,2017,7,8,6.766666667
+Thiruttu Payale 2,Thriller,6.7,Susi Ganesan,Bobby Simha,658,2017,8,9,7.9
+English Padam,Comedy,1.2,Kumaresh Kumar,Sreeja Das,24,2017,4,8,4.4
+Indrajith,Action,3.3,Kalaprabhu Thanu,Gautham Karthik,150,2017,5,8,5.433333333
+En Aaloda Seruppa Kaanom,Comedy,5,Jagan,K.P. Jagan,61,2017,8,9,7.333333333
+Theeran Adhigaram Ondru,Action,8.2,H. Vinoth,Karthi,8685,2017,4,8,6.733333333
+C/o Surya,Action,5.6,Suseenthiran,Sundeep Kishan,175,2017,7,9,7.2
+Ippadai Vellum,Action,5.7,Gaurav Narayanan,Udhayanidhi Stalin,272,2017,8,8,7.233333333
+Aramm,Drama,7.8,Gopi Nainar,Nayanthara,1411,2017,5,7,6.6
+The House Next Door,Horror,6.8,Milind Rau,Prakash Belawadi,1854,2017,8,7,7.266666667
+Vizhithiru,Drama,5.9,Meera Kathiravan,Abhinaya,103,2017,9,8,7.633333333
+Kadaisi Bench Karthi,Comedy,4.1,Ravee Paargavan,Gnanasambandam,36,2017,8,9,7.033333333
+Mersal,Action,7.7,Atlee Kumar,Joseph Vijay,23383,2017,8,8,7.9
+Meyaadha Maan,Romance,7.2,Rathna Kumar,Vaibhav Reddy,870,2017,8,7,7.4
+Solo,Action,7.1,Bejoy Nambiar,Dulquer Salmaan,2772,2017,4,8,6.366666667
+Hara Hara Mahadevaki,Comedy,5.3,Santhosh P. Jayakumar,Kovai Babu,450,2017,7,9,7.1
+Karuppan,Action,5.6,R. Panneerselvam,Sami Rajalingam,520,2017,5,8,6.2
+Spyder,Action,6.6,A.R. Murugadoss,Mahesh Babu,8652,2017,7,7,6.866666667
+Bayama Irukku,Comedy,5.3,Jawahar,Santhosh Prathap,70,2017,3,8,5.433333333
+Aayirathil Iruvar,Action,4.6,Saran,Vinay Rai,57587,2017,5,9,6.2
+Kalavu Thozhirchalai,Thriller,5.9,T Krishna Samy,T. Krishnasamy,25,2017,6,8,6.633333333
+Veedevadu,Thriller,5.5,Tatineni Satya,Esha Gupta,44,2017,2,7,4.833333333
+Thupparivaalan,Action,7.5,Myshkin,Vishal,3405,2017,8,8,7.833333333
+Kathanayagan,Comedy,4.2,Tha. Muruganatham,Meera Krishna,30228,2017,7,9,6.733333333
+Neruppu Da,Action,4.3,Nikki Galrani,Nagineedu,10330,2017,8,9,7.1
+Kurangu Bommai,Drama,8.1,Nithilan,Vidharth,1093,2017,7,8,7.7
+Maayavan,Action,7.3,C.V. Kumar,Sundeep Kishan,1468,2017,2,9,6.1
+Puriyaatha Puthir,Thriller,6.6,Ranjit Jeyakodi,Vijay Sethupathi,771,2017,8,9,7.866666667
+Vivegam,Action,5.6,Siva,Ajith Kumar,10389,2017,9,8,7.533333333
+Thappu Thanda,Crime,6,Srikantan,Ajay Ghosh,42,2017,7,8,7
+Taramani,Drama,7.5,Ram,Anjali,1252,2017,4,7,6.166666667
+Velaiyilla Pattathari 2,Action,5.4,Soundarya R. Ashwin,Riaz Ahmed,1783,2017,8,8,7.133333333
+Podhuvaga En Manasu Thangam,Comedy,3.8,Thalapathy Prabhu,Parthiban,115,2017,5,9,5.933333333
+Kootathil Oruthan,Comedy,6.7,T.J. Gnanavel,Ashok Selvan,363,2017,7,8,7.233333333
+Nibunan,Action,6.6,Arun Vaidyanathan,Varalaxmi Sarathkumar,782,2017,4,9,6.533333333
+Meesaya murukku,Biography,7.6,Hiphop Tamizha Adhi,Hiphop Tamizha Adhi,1869,2017,8,9,8.2
+Vikram Vedha,Action,8.7,Gayatri,Pushkar,23249,2017,9,8,8.566666667
+Rubaai,Action,6.1,M. Anbazhagan,Anandhi,41952,2017,8,7,7.033333333
+Magalir Mattum,Drama,6.3,Bramma G.,Jyotika,455,2017,9,7,7.433333333
+Pandigai,Action,6.5,Feroz,Kreshna,245,2017,7,8,7.166666667
+Thiri,Drama,5.2,Ashok Amritharaj S.,A.L. Azhagappan,33926,2017,8,9,7.4
+Gemini Ganesanum Suruli Rajanum,Comedy,5.8,Ilavarasu Odam,Regina Cassandra,387,2017,9,9,7.933333333
+Chennaiyil Oru Naal 2,Thriller,4.6,Jpr,Sarath Kumar,84,2017,7,8,6.533333333
+Ivan Thanthiran,Action,6.3,R. Kannan,RJ Balaji,28334,2017,8,7,7.1
+Adhagappattathu Magajanangalay,Comedy,5,Inba Sekhar,Inbasekhar,19592,2017,9,7,7
+Yaanum Theeyavan,Action,6.1,Prashanth G Sekr,Prashanth G Sekar,26862,2017,8,8,7.366666667
+Vanamagan,Action,5.5,A.L. Vijay,Arjun,599,2017,7,9,7.166666667
+Anbanavan Asaradhavan Adangadhavan,Action,2.3,Adhik Ravichandran,Tamannaah Bhatia,510,2017,5,9,5.433333333
+Maragatha Nananya,Adventure,7,Ark Saravan,Aadhi,1144,2017,8,7,7.333333333
+Uru,Thriller,5.9,Vicky Anand,Vicky Anand,275,2017,8,8,7.3
+Peechaankai,Comedy,6.5,Ashok,Rskarthiik,53,2017,3,8,5.833333333
+Rangoon,Action,7.1,Rajkumar Periasamy,Gautham Karthik,560,2017,8,7,7.366666667
+Sathriyan,Action,4.8,Vikram Prabhu,Manjima Mohan,51758,2017,7,8,6.6
+Bongu,Crime,5.3,Taj,Pooja Bisht,93,2017,8,7,6.766666667
+Oru Kidayin Karunai Manu,Drama,7.7,Suresh Sangaiah,Suresh Sangaiah,276,2017,9,8,8.233333333
+Oru Iyakkunarin Kadhal Diary,Drama,6.4,V Brabhakar,Velu Prabhakaran,15560,2017,8,9,7.8
+7 Naatkal,Thriller,4.4,Gautham V.R.,M.S. Bhaskar,14763,2017,7,9,6.8
+Thondan,Crime,6,Samuthirakani,Arthana Binu,242,2017,4,8,6
+Brindavanam,Drama,6.8,Radha Mohan,Arulnithi,1061,2017,8,8,7.6
+Inayathalam,Drama,2.9,Sankar Suresh,Shankar-Suresh,59340,2017,5,9,5.633333333
+Sangili Bungili Kadhava Thorae,Comedy,5.3,Ike Radha,Nivas Adithan,3026,2017,6,8,6.433333333
+Yeidhavan,Action,6,Sakthi Rajasekaran,Sandra Amy,71417,2017,3,9,6
+Saravanan Irukka Bayamaen,Action,2.9,Ezhil,Karai Natrajan,159,2017,2,8,4.3
+Enga Amma Rani,Action,6.1,S. Bani,Dhansika,47566,2017,1,9,5.366666667
+Baahubali 2: The Conclusion,Action,8.2,S.S. Rajamouli,Prabhas,71418,2017,4,8,6.733333333
+Nagarvalam,Drama,5.8,Marxx,Yogi Babu,35314,2017,7,9,7.266666667
+Sathya,Action,2.7,Deepan,Roma Asrani,110,2017,8,8,6.233333333
+Kadamban - Taqatwar,Action,5.4,N. Ragavan,Arya,363,2017,5,9,6.466666667
+Sivalinga - Kanchana Returns,Horror,4.7,P. Vasu,Bhanupriya,361,2017,6,7,5.9
+Power Paandi,Action,7.6,Dhanush,Dhanush,1179,2017,9,7,7.866666667
+8 Thottakkal,Action,7.6,Sri Ganesh,Vetri,1394,2017,4,8,6.533333333
+Kaatru Veliyidai,Romance,5.9,Mani Ratnam,Karthi,1669,2017,7,9,7.3
+Dora,Action,5.3,Dass Ramasamy,Nayanthara,701,2017,4,8,5.766666667
+Kavan,Action,7.1,K.V. Anand,Vijay Sethupathi,1853,2017,5,9,7.033333333
+Kadugu,Drama,7.5,Vijay Milton,Radhika Prasidhha,482,2017,4,8,6.5
+Paambhu Sattai,Action,6.2,Adam Dasan,Bobby Simha,125,2017,8,9,7.733333333
+Dhayam,Thriller,4.6,Kannan Rangaswamy,Aira Agarval,32535,2017,5,8,5.866666667
+Vaigai Express,Thriller,4.6,Shaji Kailas,Shaji Kailas,23,2017,6,7,5.866666667
+Julieum 4 Perum,Family,3.4,Satheesh,Amudhavaanan,7,2017,9,7,6.466666667
+Bruce Lee,Action,2.4,Prashanth Pandiraj,Anandraj,146,2017,8,8,6.133333333
+Kattappava Kanom,Comedy,5.1,Mani Seiyon,Yogi Babu,28454,2017,7,8,6.7
+Oru Mugathirai,Drama,5.7,R. Senthil Nadan,Chaams,65651,2017,4,8,5.9
+Maanagaram,Action,8.1,Lokesh Kanagaraj,Sundeep Kishan,3350,2017,5,9,7.366666667
+ACP Shiva,Action,3.3,Sai Ramani,Joy Badlani,352,2017,8,9,6.766666667
+Mupparimanam,Romance,5.5,Adhiroopan,Aari,35706,2017,9,8,7.5
+Yaakkai,Romance,5.6,Kuzhandai Velappan,M.S. Bhaskar,48519,2017,6,7,6.2
+Peranbu,Drama,9,Ram,Amudhavan Karuppiah,11506,2018,8,7,8
+Maari 2,Action,5.6,Balaji Mohan,Dhanush,1913,2018,7,8,6.866666667
+Adanga Maru,Action,7.1,Karthik Thangavel,Jayam Ravi,1696,2018,4,9,6.7
+Kanaa,Drama,7.8,Arunraja Kamaraj,Aishwarya Rajesh,1225,2018,5,8,6.933333333
+Seethakaathi,Drama,7,Balaji Tharaneetharan,Vijay Sethupathi,714,2018,8,9,8
+Thuppakki Munai,Action,6.3,Dinesh Selvaraj,Vikram Prabhu,370,2018,9,8,7.766666667
+Thuppakki Munai,Action,6.3,Dinesh Selvaraj,Vikram Prabhu,370,2018,8,9,7.766666667
+2,Action,6.3,S. Shankar,Rajinikanth,20076,2018,7,8,7.1
+Kaatrin Mozhi,Comedy,7.3,Radha Mohan,Jyotika,559,2018,8,9,8.1
+Sarkar,Action,6.8,A.R. Murugadoss,Joseph Vijay,11994,2018,9,8,7.933333333
+Pandem Kodi 2,Action,5.2,N. Linguswamy,Vishal,632,2018,5,9,6.4
+Vada Chennai,Action,8.5,Vetrimaaran,Dhanush,8841,2018,8,8,8.166666667
+Aan Devathai,Action,6.4,Thamira,Ilavarasu,120,2018,7,9,7.466666667
+Raatchasan,Action,8.7,Ram Kumar,Vishnu Vishal,17425,2018,8,8,8.233333333
+Nota,Drama,6.4,Anand Shankar,Vijay Deverakonda,2306,2018,9,9,8.133333333
+96,Drama,8.6,C. Prem Kumar,Vijay Sethupathi,15523,2018,8,8,8.2
+Pariyerum Perumal,Drama,8.8,Mari Selvaraj,Prabunath,6984,2018,7,9,8.266666667
+Chekka Chivantha Vaanam,Action,7.3,Mani Ratnam,Slavisa Ivanovic,5118,2018,8,8,7.766666667
+Raja Ranguski,Mystery,6.6,Dharani Dharan,Shirish,262,2018,9,7,7.533333333
+Saamy Square,Action,4.5,Hari,Vikram,1090,2018,9,8,7.166666667
+U Turn,Mystery,7,Pawan Kumar,Samantha Ruth Prabhu,2292,2018,7,9,7.666666667
+Seema Raja,Action,4.5,Ponram,Sivakarthikeyan,1405,2018,5,8,5.833333333
+Imaikkaa Nodigal,Action,7.4,R. Ajay Gnanamuthu,Nayanthara,4206,2018,8,7,7.466666667
+Lakshmi,Drama,6.9,A.L. Vijay,Ditya Bhande,476,2018,5,8,6.633333333
+Odu Raja Odu,Comedy,7.1,Jathin Sanker Raj,Nishanth Ravindaran,86,2018,9,9,8.366666667
+Kolamavu Kokila,Comedy,7.3,Nelson,Nayanthara,1976,2018,6,8,7.1
+Pyaar Prema Kaadhal,Romance,6.6,Elan,Harish Kalyan,872,2018,5,7,6.2
+Vishwaroopam 2,Action,5.9,Vishwaroopam,Kamal Haasan,2076,2018,4,8,5.966666667
+Ghajinikanth,Comedy,5.3,Santhosh P. Jayakumar,Arya,437,2018,1,9,5.1
+Junga,Action,5.2,Gokul,Vijay Sethupathi,774,2018,2,8,5.066666667
+Mohini,Horror,3.3,R. Madhesh,Trisha Krishnan,41485,2018,3,7,4.433333333
+Chinababu,Action,7,Pandiraj,Karthi,1896,2018,6,8,7
+Tamizh Padam 2.0,Comedy,6.5,C.S. Amudhan,Jiiva,1286,2018,9,9,8.166666667
+Goli Soda 2,Drama,7.3,Vijay Milton,Samuthirakani,642,2018,8,8,7.766666667
+Iravukku Aayiram Kangal,Action,7.3,Mu. Maran,Abhinayashree,978,2018,7,9,7.766666667
+Irumbu Thirai,Action,7.7,P.S. Mithran,Vishal,3373,2018,8,8,7.9
+Mahanati,Biography,8.5,Savitri,Nag Ashwin,8703,2018,5,9,7.5
+Iruttu Araiyil Murattu Kuthu,Horror,4.2,Santhosh P. Jayakumar,Yaashika Aanand,700,2018,6,9,6.4
+Kaala,Action,6.7,Pa. Ranjith,Rajinikanth,7486,2018,5,8,6.566666667
+Karu,Drama,5.7,A.L. Vijay,Sai Pallavi,416,2018,4,8,5.9
+Mercury,Horror,6.1,Karthik Subbaraj,Prabhu Deva,827,2018,5,8,6.366666667
+Tik Tik Tik,Action,6.1,Shakti Soundar Rajan,Jayam Ravi,2172,2018,8,7,7.033333333
+6 Athiyayam,Horror,4.2,Ajayan Bala,Lokesh Rajendran,32,2018,8,8,6.733333333
+Naachiyaar,Action,6.8,Bala,Ivana,6140,2018,5,7,6.266666667
+Savarakathi,Comedy,7.1,G.R. Adithya,Ram,420,2018,5,8,6.7
+Kalakalappu 2,Comedy,4.9,Sundar C.,Yogi Babu,572,2018,7,9,6.966666667
+Merku Thodarchi Malai,Drama,8.6,Lenin Bharati,Leninbharati,35981,2018,8,8,8.2
+Bhaagamathie,Action,7,Ashok G.,Anushka Shetty,2209,2018,9,9,8.333333333
+Nimir,Comedy,6.3,Priya Darshan,Priyadarshan,55126,2018,8,7,7.1
+Oru Nalla Naal Paathu Solren,Comedy,6.8,P. Arumugakumar,Annayya,1877,2018,7,8,7.266666667
+Thaanaa Serndha Koottam,Action,6.8,Vignesh Shivan,Suriya,4655,2018,5,9,6.933333333
+Sketch,Action,5.7,Vijay Chandar,Vikram,1589,2018,7,9,7.233333333
+Enai Noki Paayum Thota,Action,5.7,Gautham Vasudev Menon,Dhanush,1198,2019,8,8,7.233333333
+Adithya Varma,Drama,6.4,Gireesaaya,Dhruv Vikram,596,2019,8,7,7.133333333
+Kaithi,Action,8.5,Lokesh Kanagaraj,Karthi,7603,2019,9,8,8.5
+Bigil,Action,6.8,Atlee Kumar,Joseph Vijay,9299,2019,9,9,8.266666667
+100% Kadhal,Comedy,4.6,M.M. Chandramouli,G.V. Prakash Kumar,76,2019,5,8,5.866666667
+Asuran,Action,8.6,Vetrimaaran,Dhanush,7792,2019,10,7,8.533333333
+Kaappaan,Action,6.4,K.V. Anand,Suriya,3399,2019,8,8,7.466666667
+Magamuni,Crime,7.9,Santha Kumar,Arya,1275,2019,9,9,8.633333333
+Saaho,Action,5.2,Sujeeth,Prabhas,14432,2019,1,8,4.733333333
+Sixer,Comedy,5.7,Chachi,Vaibhav Reddy,219,2019,4,7,5.566666667
+Bakrid,Drama,7.4,Jagadeesan Subu,Vikranth,222,2019,5,8,6.8
+Kennedy Club,Drama,5.4,Suseenthiran,M. Sasikumar,101,2019,2,8,5.133333333
+Comali,Comedy,6.9,Pradeep Ranganathan,Jayam Ravi,1793,2019,10,9,8.633333333
+Nerkonda Paarvai,Action,8.2,H. Vinoth,Ajith Kumar,4876,2019,4,9,7.066666667
+Jackpot,Action,5.2,Kalyaan,Jyotika,321,2019,7,8,6.733333333
+A1,Comedy,5,K. Johnson,Santhanam,347,2019,8,8,7
+Aame,Drama,6.3,Rathna Kumar,Amala Paul,998,2019,9,9,8.1
+Kadaram Kondan,Action,5.7,Rajesh M. Selva,Vikram,1303,2019,8,8,7.233333333
+Sivappu Manjal Pachai,Action,7.1,Sasi,Siddharth,998,2019,10,9,8.7
+Gurkha,Action,4.7,Sam Anton,Yogi Babu,194,2019,5,8,5.9
+Vennila Kabaddi Kuzhu 2,Action,5.1,Selva Sekaran,Appukutty,89,2019,9,9,7.7
+Bodhai Yeri Budhi Maari,Drama,6.6,Chandru,Charlie,43,2019,6,9,7.2
+Kalavani 2,Comedy,4,A. Sarkunam,Vimal,68,2019,5,10,6.333333333
+Raatchasi,Drama,7.3,Sy Gowthamraj,Jyotika,729,2019,10,9,8.766666667
+Jiivi,Drama,7.9,V.J. Gopinath,Vetri,997,2019,5,9,7.3
+Dharma Prabhu,Drama,4.6,S. Muthukumaran,Yogi Babu,153,2019,8,8,6.866666667
+House Owner,Drama,6.4,Lakshmi Ramakrishnan,Lovelyn Chandrasekhar,100,2019,5,7,6.133333333
+Sindhubaadh,Action,5.1,S.U. Arun Kumar,Vijay Sethupathi,311,2019,9,8,7.366666667
+Thumbaa,Adventure,5.8,Harish Ram L.H.,Kpy Bala,57,2019,8,9,7.6
+Game Over,Drama,7.1,Ashwin Saravanan,Taapsee Pannu,5370,2019,9,9,8.366666667
+Kolaigaran,Action,7.1,Andrew Louis,Vijay Antony,1080,2019,10,9,8.7
+NGK,Action,6,K. Selvaraghavan,Suriya,3093,2019,9,9,8
+Devi 2,Comedy,3.8,A.L. Vijay,Prabhu Deva,269,2019,5,7,5.266666667
+Neeya 2,Horror,3,Suresh,Jai,78,2019,9,7,6.333333333
+Ayogya,Action,6.1,Venkat Mohan,Vishal,824,2019,8,9,7.7
+Kee,Action,5.1,Kalees,Jiiva,566,2019,7,8,6.7
+K-13,Action,6.1,Barath Neelakantan,Arulnithi,359,2019,8,6,6.7
+Mr. Local,Action,3.1,M. Rajesh,Sivakarthikeyan,750,2019,9,8,6.7
+100,Action,6.5,Sam Anton,Atharvaa Murali,809,2019,5,9,6.833333333
+Vellai Pookal,Crime,7.2,Vivek Elangovan,Vivek,1229,2019,4,9,6.733333333
+Mehandi Circus,Drama,7.5,Raju Saravanan,Madhampatty Rangaraj,343,2019,7,8,7.5
+Kanchana 3,Action,4.2,Lawrence Raghavendra,Lawrence Raghavendra,1031,2019,8,8,6.733333333
+Watchman,Thriller,5.1,A.L. Vijay,G.V. Prakash Kumar,234,2019,9,8,7.366666667
+Gangs Of Madras,Action,5.5,C.V. Kumar,Daniel Balaji,4541,2019,8,9,7.5
+Uriyadi 2,Action,7.2,Vijay Kumar,Vijay Kumar,622,2019,7,9,7.733333333
+Kuppathu Raja,Comedy,4.9,Baba Bhaskar,G.V. Prakash Kumar,105,2019,9,8,7.3
+Natpe Thunai,Comedy,6.5,Parthiban Desingu,Hiphop Tamizha Adhi,671,2019,9,8,7.833333333
+Super Deluxe,Action,8.4,Thiagarajan Kumararaja,Vijay Sethupathi,7412,2019,7,8,7.8
+Airaa,Drama,4.6,Sarjun,Nayanthara,548,2019,10,8,7.533333333
+Agni Devi,Crime,5.3,Jpr,Sathish Krishnan,66,2019,9,8,7.433333333
+Nedunalvaadai,Drama,7.3,Selvakannan,Elvis Alexander,33890,2019,8,7,7.433333333
+Ispade Rajavum Idhaya Raniyum,Drama,6.5,Ranjit Jeyakodi,Harish Kalyan,367,2019,7,7,6.833333333
+Sathru,Thriller,6,Naveen Nanjundan,Master Ajithesh,219,2019,5,7,6
+Boomerang,Action,5.6,R. Kannan,Atharvaa Murali,356,2019,7,6,6.2
+Thadam,Action,8.2,Magizh Thirumeni,Arun Vijay,3728,2019,8,6,7.4
+90 ML,Comedy,3.3,Anita Udeep,Oviya,449,2019,9,8,6.766666667
+LKG,Comedy,6.9,Prabhu,RJ Balaji,983,2019,8,9,7.966666667
+Vantha Rajavathaan Varuven,Action,3.7,Sundar C.,T.R. Silambarasan,500,2019,9,8,6.9
+Dhilluku Dhuddu 2,Comedy,5.3,Rambala,Santhanam,497,2019,7,9,7.1
+Dev,Action,4.8,Rajath Ravishankar,Karthi,724,2019,5,8,5.933333333
+Charlie Chaplin 2,Comedy,3.8,Sakthi Chidambaram,Prabhu Deva,215,2019,4,7,4.933333333
+Petta,Action,7.3,Karthik Subbaraj,Rajinikanth,7545,2019,8,8,7.766666667
+Viswasam,Action,6.7,Siva,Ajith Kumar,5907,2019,8,9,7.9

@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style1.css') }}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.1.3/socket.io.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color:#dfded6;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+        height:1000Px;
+    }
+    .container-box {
+        background-color: skyblue; /* Light gray background color */
+        border: 1px solid #ced4da; /* Border color */
+        border-radius: 5px; /* Rounded corners */
+        padding: 20px; /* Padding */
+        margin-bottom: 20px; 
+        height:500px;
+        width:600px;/* Bottom margin */
+    }
+
+
+    header {
+        background-color: #ced5dd;
+        padding: 15px;
+        color: white;
+        text-align: center;
+        height:120px;
+        width:100%;
+        position:fixed;
+    }
+    .user-info {
+        margin-left: 1120px;
+        font-size: 14px;
+    }
+    
+    .logo img {
+        width: 50px;
+        cursor: pointer;
+        margin-left: 1140px;
+    }
+    
+    #user-options {
+        position: absolute;
+        top: 100%;
+        right:0;
+        border: 1px solid #ccc;
+        text-color:black;
+        border-radius: 5px;
+        padding: 5px;
+        z-index: 1;
+        font-size:14px;
+    }
+    #mysidebar {
+        height: 55%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        margin-top: -50px;
+        left: 0;
+        background-color: #eeae58;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+
+    #mysidebar a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+        display: block;
+        transition: 0.3s;
+    }
+
+    #mysidebar a:hover {
+        color: #f1f1f1;
+    }
+
+    #mysidebar .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    #menu-btn {
+        font-size: 20px;
+        cursor: pointer;
+        text-align: left;
+        color:black;
+        margin-top:-40px;
+    }
+
+    #content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin-top:100px;
+    }
+
+    #emotion-video {
+        width: 70%;
+        height: auto;
+        margin: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius:10px;
+        background-color: #f9f9f9;
+    }
+
+    #emotion-plot {
+        width: 70%;
+        margin-bottom:200px;
+        height: auto;
+        margin: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius:10px;
+    }
+
+    #emotion-label {
+        font-size: 18px;
+        margin: 20px;
+    }
+
+    /* Additional styling for face recognition frames and plot */
+    #face-frames-container {
+        margin: 20px; /* top right bottom left */
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border: 10px solid #ddd; /* Add this line for frame border */
+    }
+    
+    #plot-container {
+        margin: 20px; /* top right bottom left */
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 10px solid #ddd; /* Add this line for frame border */
+    }
+    
+    /* Style for the container holding camera view and plot */
+    #camera-plot-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+        border-radius:10px;
+    }
+
+    /* Style for camera view and plot */
+    .camera-plot {
+        flex: 1 1 45%;
+        margin-bottom: 10px;
+        border-radius:15px;
+        color:red;
+    }
+    .camera{
+        flex: 1 1 45%;
+        margin: 10px;
+        float: left;
+    }
+    .box {
+    border: 1px solid #ddd;
+    padding: 20px;
+     margin-top: 10px;
+    /*margin: 20px auto 20px auto;  Adjusted margin with auto to center horizontally and added bottom margin */
+    background-color: orange;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: calc(50% - 40px); /* Set the maximum width to half of the viewport width minus margins */
+    box-sizing: border-box; /* Include padding and border in the width */
+    border-radius: 10px;
+    float:right;
+}
+    .logo{
+        height:10px;
+        width:10px;
+        float:left;
+    }
+
+   
+    .title-animation {
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+        background: linear-gradient(to right, #ffcc00, #ff6633, #ff3300); /* Define the linear gradient with multiple colors */
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        animation: typing 3s steps(10, end) forwards;
+    }
+    
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+        to {
+            width: auto;
+        }
+    }
+
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        position: fixed;
+        bottom: 0;
+        height:80px;
+        width: 100%;
+    }
+
+    .social-icons {
+        margin-top: 10px;
+    }
+
+    .social-icons a {
+        display: inline-block;
+        margin: 0 10px;
+        width: 40px;
+        height: 40px;
+        background-color: #666;
+        color: white;
+        border-radius: 50%;
+        line-height: 40px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        transition: background-color 0.3s;
+    }
+
+    .social-icons a:hover {
+        background-color: #444;
+    }
+</style>
+</style>
+<script>
+    const socket = io.connect();
+
+    // Event listener to update the plot
+    socket.on('update_graph', function(data) {
+        // Update the <img> tag with id "emotion_plot" to display the new plot image
+        document.getElementById('emotion_plot').src = data.image;
+    });
+
+    // Event listener to update the movie recommendations
+    socket.on('update_recommendations', function(recommendedMovies) {
+        // Clear previous recommendations
+        document.getElementById('recommended_movies_list').innerHTML = '';
+
+        // Iterate through the received movie data and add it to the <ul> element
+        recommendedMovies.forEach(function(movie) {
+            const listItem = document.createElement('li');
+            listItem.textContent = `${movie.MovieName} - ${movie.Genre} - ${movie.Director} - Rating: ${movie.movie_rating}`;
+            document.getElementById('recommended_movies_list').appendChild(listItem);
+        });
+    });
+
+    // Function to open the sidebar
+    function openSidebar() {
+        document.getElementById("mysidebar").style.width = "250px";
+    }
+
+    // Function to close the sidebar
+    function closeSidebar() {
+        document.getElementById("mysidebar").style.width = "0";
+    }
+
+    // Function to update the plot
+    function updatePlot(plotData) {
+        // Extract data from plotData (assuming it's an array of numbers for simplicity)
+        var dataPoints = plotData.dataPoints;
+    
+        // Get the canvas element where you want to draw the plot
+        var canvas = document.getElementById('plot-canvas');
+
+        var ctx = canvas.getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: plotData.labels,
+                datasets: [{
+                    label: 'Plot Data',
+                    data: dataPoints,
+                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                    borderColor: 'rgba(255, 99, 132, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                }
+            }
+        });
+    }
+    function toggleUserOptions() {
+        var options = document.getElementById('user-options');
+        options.style.display = (options.style.display === 'none') ? 'block' : 'none';
+    }
+    
+    function redirectOption(select) {
+        var option = select.value;
+        if (option) {
+            window.location.href = option; // Redirect to the selected option's URL
+        }
+    }
+</script>
+<body>
+    <header>
+        <div class="title-animation">
+            <h1>Face Recognition</h1>
+        </div>
+        <div class="logo" onclick="toggleUserOptions()">
+            <img src="static\download.png" alt="Logo">
+            <div class="user-info">
+                <span id="username">{{ email }}</span>
+            </div>
+        </div>
+    <div id="menu-btn" onclick="openSidebar()">☰ MENU</div>
+</header>
+    <div id="mysidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">×</a>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Contact</a>
+        <a href="logout">Logout</a>
+        <a href="/change_password">Change Password</a>
+    </div>
+    <div id="content">
+        <div class="camera">
+            <img id="emotion_video" src="{{ url_for('video_feed') }}" alt="Emotion Video" class="camera-plot">
+        </div>
+        <div id="camera-plot-container">
+            <div class="camera-plot">
+                <img id="emotion_plot" src="" alt="Emotion Plot" class="camera-plot">
+            </div>
+        </div>
+    </div>
+        <div id="recommended-movies-container" class="box">
+            <h2>Recommended Movies</h2>
+            <ul id="recommended_movies_list"></ul>
+        </div> 
+        
+        <footer>
+            <p>&copy; muruganatham, All rights reserved.</p>
+            <div class="social-icons">
+                <a id="instagram-icon" href="https://www.instagram.com/" target="_blank">Insta</a>
+                <a id="facebook-icon" href="https://www.facebook.com/" target="_blank">FB</a>
+                <a id="youtube-icon" href="https://www.youtube.com/" target="_blank">YT</a>
+            </div>
+</body>
+</html>

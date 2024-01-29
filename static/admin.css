@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('back.jpg'); /* Specify the URL of your background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+}
+.container {
+    background: linear-gradient(to bottom, #283747, #3498db); /* Adjust the colors as needed */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+    margin: 50px auto; /* Adjust margin for positioning */
+    max-width: 400px; /* Limit container width */
+    color: white; /* Text color */
+    text-align: center; /* Center content */
+}
+
+/* Additional styling for h1 */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Style for input fields and labels */
+label,input[type="text"], input[type="password"] {
+    display: block;
+    margin: 10px 0;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    text-align: left;
+}
+ .btn {
+    display: block;
+    margin: 10px;
+    width: 70%;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    font-size: 16px;
+    background-color: #2980b9;
+    cursor: pointer;
+    color: white;
+}
+
+
+
+input[type="submit"]:hover, .btn:hover {
+    background-color: #1c688e; /* Button hover color */
+}
+
+/* Additional styling for links */
+a {
+
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
